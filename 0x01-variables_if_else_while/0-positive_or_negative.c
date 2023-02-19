@@ -1,6 +1,6 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
-#include <stdlb.h>
-#include<time.h>
 
 /**
  * main - A program that generate random and print number and pos/neg ,0
