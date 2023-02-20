@@ -6,17 +6,12 @@
  */
 int main(void)
 {
-	int i;
-	int j;
-	char alphABET[] = ("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ$");
-	for (i = 0; i < 26; i++)
-	{
-		putchar(alphABET[i]);
-	}
-	for (j = 26; j < 53; j++)
-	{
-		putchar(alphABET[j]);
-	}
+	char i;
+
+	for (i = a; i < z; i++)
+		putchar(i);
+	for (i = A; j < Z; j++)
+		putchar(i);
 	putchar('\n');
 	return (0);
 }
