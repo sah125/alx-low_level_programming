@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * main - A program that display letters 
- *
- * Return: 0
+ * print_alphabet - A program that display letters
+ * Return: on succes
  */
+
 void print_alphabet(void)
 {
 	char sh;
@@ -12,6 +12,5 @@ void print_alphabet(void)
 	{
 		_putchar(sh);
 	}
-	_putchar('\n');
-	
+	_putchar('\n');	
 }
